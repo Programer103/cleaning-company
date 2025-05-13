@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.bid {
+    background-color: #007BFF;
+   
+    width: 362px;
+    height: 99px;
+    margin-top: 50px;
+    margin-left: 36%;
+    border-radius: 20px !important;
+    border: 3px solid rgba(0, 60, 255, 1);
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    color: #fff;
+
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,255 @@
+
+.img-fluid{
+    width: 100vw;  
+    height: 100vh; 
+    object-fit: cover; 
+    object-position: center; 
+    position: relative;
+    top: 0;
+    left: 0;
+    
+   
+} 
+
+.blackout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.bg-container{
+    position: fixed; /* Фон и затемнение фиксированы */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Уходит в фон */
+}
+
+
+header {
+    display: flex;
+   justify-content: space-between;
+}
+
+h1 {
+   display: inline;
+   font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    color: #fff;
+    -webkit-text-stroke: 3px rgba(0, 81, 255, 1);
+}
+
+.navbuttons {
+   display: flex;
+   font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 43px;
+    padding-right: 40px;
+    
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+
+.iconName{
+display: flex;
+align-items: center;
+margin-top: 25px;
+margin-left: 65px;
+}
+
+.Mainpagecenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80vh;
+    padding: 15%;
+    padding-left: 10%;
+        padding-right: 10%;
+}
+
+.Mainpagecenter>img {
+    width: 30vh;
+}
+
+.nav-link{
+    color: white;
+}
+
+.dropdown-toggle{
+    margin-right: 30px;
+}
+
+.Img-text>p {
+   
+    max-width: 1000px;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Img-text {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+article>a{
+    margin-top: 14%;
+}
+
+
+.bid {
+    
+    top: 70%;
+    left: 45%;
+    width: 362px;
+    height: 99px;
+   
+    border-radius: 20px;
+    border: 3px solid rgba(0, 60, 255, 1);
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+
+}
+
+/* Основні стилі */
+
+aside {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    color: white;
+}
+
+.about{
+    max-width: 800px;
+    
+}
+
+.forma{
+    color: black;
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.submit {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="datetime-local"],
+input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: #f9f9f9; /* Світлий фон */
+    border-left: 5px solid #007BFF; /* Лінія зліва */
+    padding: 20px; /* Відступи всередині */
+    margin: 20px 0; /* Відступи зверху та знизу */
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    color: #333; /* Колір тексту */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    border-radius: 5px; /* Закруглені кути */
+  }
+  
+  aside p {
+    font-size: 18px; /* Розмір шрифта */
+    font-weight: bold; /* Жирний шрифт */
+    color: #333; /* Колір тексту */
+  }
+  
+  aside:hover {
+    background-color: #e3f2fd; /* Легке затемнення фону при наведенні */
+  }
+  
+  
+
+
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+
+
+
+
